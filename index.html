@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="background-color: #FFFFFF;">
     <header class="max-w-6xl m-auto mt-5">
       <nav class="flex justify-between items-center">
         <img src="./assets/logo.png" alt="" />
@@ -35,8 +35,8 @@
       <!-- Our plants -->
       <section class="mt-20">
         <div class="text-center">
-          <h3 class="text-3xl font-semibold"><span class="text-orange-600">Our</span>Plants</h3>
-          <p class="">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+          <h3 class="text-5xl font-semibold"><span class="text-orange-600 mr-2">Our</span>Plants</h3>
+          <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
         <div class="flex grid grid-cols-4 mt-10 gap-10">
           <div class="w-2xs items-center w-69 text-center">
@@ -113,7 +113,7 @@
 
             <div class="text-center">
               <h1 class="text-3xl font-bold"><span class="text-orange-600 mr-3">Latest</span>Deals</h1>
-            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
             <!-- Card -->
             <div class="flex gap-4 mt-20">
@@ -136,7 +136,7 @@
            </div>
            <!-- right card -->
            <div>
-            <div style="background-image: url(./assets/deal-zabo.png);" class="bg-no-repeat w-3xl h-100 rounded-2xl text-white text-center">
+            <div style="background-image: url(./assets/deal-zabo.png);" class="bg-no-repeat w-188 h-100 rounded-2xl text-white text-center">
               <div class="p-40 text-2xl font-semibold">
                 <p class="pb-3">30% Off | Ana  Plant</p>
               <button class="underline">Shop Now</button>
@@ -146,14 +146,37 @@
             </div>
         </section>
     </main>
-    <section>
-      <div style="background-image: url(./assets/news-letter-bg.png);">
-        <h1>Join the colorful Bunch</h1>
-        <input type="email" name="" id="" placeholder="Your Email">
-      </div>
+    <section class="text-center mt-20">
+      <div style="background-image: url(./assets/news-letter-bg.png);" class=" w-360 h-133 w-full ">
+        <h1 class="text-6xl text-white pt-50 pb-8">Join the colorful Bunch</h1>
+        <input class="bg-white p-3 pr-160" type="email" name="" id="" placeholder="Your Email">
+        <button class="text-white bg-amber-600 p-3 px-10 -ml-1">Subscribe</button>
+      </div> 
     </section>
-    <footer>
-
+    <footer class="flex max-w-6xl m-auto mt-10 mb-10 gap-50">
+      <div class="w-89.5">
+        <img src="./assets/logo.png" alt="">
+        <p class="text-gray-500 text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+      </div>
+      <div class="grid grid-cols-2 text-gray-500">
+        <a href="">Home</a>
+        <a href="">Features</a>
+        <a href="">About Us</a>
+        <a href="">Pricing</a>
+        <a href="">Blog</a>
+        <a href="">Privacy Policy</a>
+        <a href="">FAQ</a>
+        <a href="">Terms of Service</a>
+        <a href="">Contact Us</a>
+        <a href="">Help Center</a>
+      </div>
+      <div class="flex gap-2">
+        <img class="w-8 h-8" src="./assets/icon-linkedin.png" alt="">
+        <img class="w-8 h-8" src="./assets/icon-twitter.png" alt="">
+        <img class="w-8 h-8" src="./assets/icon-facebook.png" alt="">
+        <img class="w-8 h-8" src="./assets/icon-youtube.png" alt="">
+      </div>
     </footer>
   </body>
 </html>
+ 
